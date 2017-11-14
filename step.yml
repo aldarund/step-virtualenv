@@ -1,0 +1,20 @@
+name: virtualenv
+version: 1.1.0
+summary: Create a virtual env with wheel installed
+tags:
+  - virtualenv
+  - python
+  - wheel
+properties:
+- name: python_location
+  type: string
+  required: false
+  default: ""
+- name: install_wheel
+  type: boolean
+  required: false
+  default: true
+- name: virtualenv_location
+  type: string
+  required: false
+  default: ""
