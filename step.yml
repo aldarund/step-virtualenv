@@ -1,5 +1,5 @@
 name: virtualenv
-version: 1.1.0
+version: 1.1.1
 summary: Create a virtual env with wheel installed
 tags:
   - virtualenv
