@@ -70,7 +70,7 @@ if [ ! "$RESULT" -eq 0 ] ; then
     fail "virtualenv was not found. It probably is not installed?"
 fi
 
-"$VIRTUAL_ENV_COMMAND" --no-site-packages -p "$WERCKER_VIRTUALENV_PYTHON_LOCATION" "$WERCKER_VIRTUALENV_VIRTUALENV_LOCATION"
+"$VIRTUAL_ENV_COMMAND" -p "$WERCKER_VIRTUALENV_PYTHON_LOCATION" "$WERCKER_VIRTUALENV_VIRTUALENV_LOCATION"
 
 info "Activating virtual enviromnent."
 source "$WERCKER_VIRTUALENV_VIRTUALENV_LOCATION/bin/activate"
